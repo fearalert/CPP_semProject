@@ -8,4 +8,4 @@
 # [ is a command which ] evaluates expressions 
 # if 0 is sent by previous command. just run it else download it
 
-apt-cache show libqt5widgets5 > /dev/null 2>&1; [ $? -eq 0 ] && echo " dependecies found"; ./ ww || sudo apt install libqt5widgets5
+apt-cache show libqt5widgets5 > /dev/null 2>&1; [ $? -eq 0 ] && echo " dependecies found"; ./ww || sudo apt install libqt5widgets5
